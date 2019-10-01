@@ -1,0 +1,85 @@
+@font-face {
+	font-family:'sukhumvit';
+	src:url("../fonts/sukhumvit-set_thin.woff") format("woff"), url("../fonts/sukhumvit-set_thin.ttf") format("truetype");
+}
+
+
+.margin-t-4
+{
+    margin-top: 2%;
+}
+.margin-t-1
+{
+    margin-top: 1%;
+}
+.margin-b-1
+{
+    margin-bottom: 1%;
+}
+.margin-b-4
+{
+    margin-bottom: 2%;
+}
+
+
+.rows
+{
+	margin-top: 1%;
+}
+
+.card-panel
+{
+	border-color: #e4eaec;
+}
+
+.loader
+{
+	pointer-events: none;
+	-webkit-pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	z-index: 2000;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	top: 0;
+	left: 0;
+	background: transparent;
+}
+.page-load
+{
+	margin-left: 45%;
+	padding-top: 20%;
+	color: #286090;
+}
+
+
+
+.badge-app {
+	color: #333;
+	background-color: #FFABBE
+}
+.badge-dev {
+	color: #333;
+	background-color: #E5D7C4
+}
+.badge-dmk {
+	color: #333;
+	background-color: #B1D4F7
+}
+.badge-inf {
+	color: #333;
+	background-color: #FAF4A2
+}
+.badge-inn {
+	color: #333;
+	background-color: #C1E5C2
+}
+
+.labelcount
+{
+	font-family:'sukhumvit';
+	font-size: 56px;
+}
